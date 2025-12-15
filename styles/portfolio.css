@@ -227,7 +227,7 @@ textarea {
     width: 100%;
 }
 
-/* resposive styles */
+/* Mobile-specific resposive styles */
 
 .hide {
     display: none;
@@ -262,3 +262,36 @@ textarea {
         width: calc(100% - 40px);
     }
 }
+
+/* Tablet-specific responsive styles */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #what-i-do {
+        padding: 30px 50px;
+    }
+    .skills-container, .resume-container, footer, .about-info-container, .banner,nav, nav>ul {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        gap: 30px;
+    }
+    .banner .pro-pic {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    footer, .about {
+        padding: 50px;
+    }
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+    .footer-column {
+        width: 95%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea {
+        width: calc(100% - 60px);
+    }
+} 
+    
