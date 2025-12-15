@@ -203,8 +203,11 @@ footer {
     margin-top: 100px;
 }
 
-.social-links a {
-    margin-right: 25px;
+.social-links  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
 }
 
 .footer-column {
@@ -234,14 +237,26 @@ textarea {
     #what-i-do {
         padding: 30px 20px;
     }
-    .skills-container, .resume-container, footer, .about-info-container {
+    .skills-container, .resume-container, footer, .about-info-container, .banner,nav, nav>ul {
         flex-direction: column;
     }
+
+    nav>ul {
+        gap: 20px;
+    }
+    .banner .pro-pic {
+        max-width: 100%;
+        height: auto;
+    }
+    
     footer, .about {
         padding: 20px;
     }
+    .btn-primary {
+        margin-bottom: 10px;
+    }
     .footer-column {
-        width: 100%;
+        width: 95%;
     }
     .contact input[type="text"], .contact input[type="email"], textarea {
         width: calc(100% - 40px);
