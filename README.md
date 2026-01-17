@@ -88,7 +88,9 @@ Clean hero section, responsive layout, modern UI, and smooth spacing — built t
 **Nazmus Sakib**
 
 🎓 Department of Computer Science & Engineering
+
 🏫 Jagannath University, Dhaka
+
 💻 Frontend Developer
 
 ---
